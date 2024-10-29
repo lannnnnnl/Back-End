@@ -1,0 +1,134 @@
+[2024-10-25T20:18:10.105] [ERROR] error - 连接数据库失败！
+[2024-10-25T20:18:18.788] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:18:18.990] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:18:19.166] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:18:19.326] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:18:19.486] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:21:24.348] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:21:24.553] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:21:24.754] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T20:21:24.910] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:05:43.124] [ERROR] error - 连接数据库失败！
+[2024-10-25T21:25:58.107] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:25:58.214] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:25:58.387] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:25:58.563] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:25:58.782] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:25:58.998] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:26:01.068] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:26:01.237] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:47:58.458] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:47:59.060] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:47:59.570] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:47:59.742] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}
+[2024-10-25T21:51:37.078] [ERROR] error - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\文档\Tencent Files\1323740733\FileRecv\serve\serve\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7) {
+  headerSent: true
+}

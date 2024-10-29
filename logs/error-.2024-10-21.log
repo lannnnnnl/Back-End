@@ -1,0 +1,124 @@
+[2024-10-21T22:49:43.672] [ERROR] error - 用户名或密码错误！
+[2024-10-21T23:53:35.276] [ERROR] error - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "users"
+    at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:248:11)
+    at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+    at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+    at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+    at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+    at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+    at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+    at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+    at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+    at async D:\workplaces\blog\blog-serve\app.js:64:5
+    at async D:\workplaces\blog\blog-serve\app.js:40:9
+    at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\workplaces\blog\blog-serve\node_modules\koa-logger\index.js:67:7) {
+  stringValue: '"undefined"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\workplaces\blog\blog-serve\node_modules\bson\lib\bson.cjs:2014:23)
+      at castObjectId (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+      at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+      at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+      at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+      at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+      at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+      at async D:\workplaces\blog\blog-serve\app.js:64:5
+      at async D:\workplaces\blog\blog-serve\app.js:40:9
+      at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9),
+  valueType: 'string',
+  model: Model { users }
+}
+[2024-10-21T23:54:03.001] [ERROR] error - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "users"
+    at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:248:11)
+    at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+    at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+    at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+    at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+    at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+    at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+    at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+    at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+    at async D:\workplaces\blog\blog-serve\app.js:64:5
+    at async D:\workplaces\blog\blog-serve\app.js:40:9
+    at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\workplaces\blog\blog-serve\node_modules\koa-logger\index.js:67:7) {
+  stringValue: '"undefined"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\workplaces\blog\blog-serve\node_modules\bson\lib\bson.cjs:2014:23)
+      at castObjectId (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+      at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+      at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+      at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+      at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+      at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+      at async D:\workplaces\blog\blog-serve\app.js:64:5
+      at async D:\workplaces\blog\blog-serve\app.js:40:9
+      at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9),
+  valueType: 'string',
+  model: Model { users }
+}
+[2024-10-21T23:55:23.444] [ERROR] error - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "users"
+    at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:248:11)
+    at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+    at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+    at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+    at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+    at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+    at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+    at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+    at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+    at async D:\workplaces\blog\blog-serve\app.js:64:5
+    at async D:\workplaces\blog\blog-serve\app.js:40:9
+    at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\workplaces\blog\blog-serve\node_modules\koa-logger\index.js:67:7) {
+  stringValue: '"undefined"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (D:\workplaces\blog\blog-serve\node_modules\bson\lib\bson.cjs:2014:23)
+      at castObjectId (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1202:12)
+      at SchemaType.castForQuery (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\schematype.js:1613:15)
+      at cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\cast.js:348:32)
+      at Query.cast (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4791:12)
+      at Query._castConditions (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:2177:10)
+      at model.Query._updateThunk (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3770:8)
+      at model.Query._updateOne (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:3879:23)
+      at model.Query.exec (D:\workplaces\blog\blog-serve\node_modules\mongoose\lib\query.js:4321:28)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async updateUserInfo (D:\workplaces\blog\blog-serve\controller\userController.js:94:5)
+      at async D:\workplaces\blog\blog-serve\app.js:64:5
+      at async D:\workplaces\blog\blog-serve\app.js:40:9
+      at async serve (D:\workplaces\blog\blog-serve\node_modules\koa-static\index.js:53:9),
+  valueType: 'string',
+  model: Model { users }
+}
